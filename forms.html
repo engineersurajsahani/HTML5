@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Demonstration</title>
+</head>
+<body>
+
+  <form action="/submit" method="post">
+
+    <label for="text-input">Text Input:</label>
+    <input type="text" id="text-input" name="text_input" placeholder="Enter text" required>
+
+    <br>
+
+    <label for="password-input">Password Input:</label>
+    <input type="password" id="password-input" name="password_input" placeholder="Enter password" required>
+
+    <br>
+
+    <label for="email-input">Email Input:</label>
+    <input type="email" id="email-input" name="email_input" placeholder="Enter email" required>
+
+    <br>
+
+    <label for="number-input">Number Input:</label>
+    <input type="number" id="number-input" name="number_input" placeholder="Enter number" required>
+
+    <br>
+
+    <label for="checkbox-input">Checkbox Input:</label>
+    <input type="checkbox" id="checkbox-input" name="checkbox_input" value="checkbox_value">
+
+    <br>
+
+    <label for="radio-input1">Radio Input 1:</label>
+    <input type="radio" id="radio-input1" name="radio_group" value="radio_value1">
+
+    <label for="radio-input2">Radio Input 2:</label>
+    <input type="radio" id="radio-input2" name="radio_group" value="radio_value2">
+
+    <br>
+
+    <label for="select-dropdown">Select Dropdown:</label>
+    <select id="select-dropdown" name="select_input">
+      <option value="option1">Option 1</option>
+      <option value="option2">Option 2</option>
+      <option value="option3">Option 3</option>
+    </select>
+
+    <br>
+
+    <label for="text-area">Text Area:</label>
+    <textarea id="text-area" name="text_area" rows="4" cols="50" placeholder="Enter text"></textarea>
+
+    <br>
+
+    <input type="submit" value="Submit">
+
+  </form>
+
+</body>
+</html>
